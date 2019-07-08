@@ -142,9 +142,9 @@ function getPalindromsManakerRef($string){
     return $result;
 }
 
-$palindroms = getPalindromsManakerRef($text); // Получение полиндромов сокращенным алгоритмом Манакера
-//$palindroms = getPalindromsManaker($text); // Получение полиндромов алгоритмом Манакера
-//$palindroms = getPalindromsTrivial($text); // Получение полиндромов тривиальным способом
+$palindroms = getPalindromsManakerRef($text); // Получение палиндромов сокращенным алгоритмом Манакера
+//$palindroms = getPalindromsManaker($text); // Получение палиндромов алгоритмом Манакера
+//$palindroms = getPalindromsTrivial($text); // Получение палиндромов тривиальным способом
 
 // Вывод
 if (!empty($palindroms)){
